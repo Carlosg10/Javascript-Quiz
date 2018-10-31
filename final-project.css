@@ -1,4 +1,25 @@
-body{
-  font-family: 'Bangers', cursive;
 
+body{
+	font-size: 20px;
+	font-family: sans-serif;
+	color: #333;
+}
+.question{
+	font-weight: 900;
+}
+.answers {
+    margin-bottom: 30px;
+}
+
+#question2,
+#question3,
+#question4,
+#question5,
+#question6,
+#question7,
+#question8,
+#question9,
+#question10
+{
+	display: none;
 }
