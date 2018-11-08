@@ -1,14 +1,38 @@
+body {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #333;
+  background-image: url('dark.jpg');
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+}
 
-body{
-	font-size: 20px;
-	font-family: sans-serif;
-	color: #333;
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
-.question{
-	font-weight: 900;
+
+.container h1 {
+  text-align: center;
+  color: white;
 }
+
+.container #question1 {
+  text-align: left;
+  font-size: 30px;
+  line-height: 36px;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+#btn {}
+
+.question {
+  font-weight: 900;
+}
+
 .answers {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 #question2,
@@ -19,7 +43,91 @@ body{
 #question7,
 #question8,
 #question9,
-#question10
-{
-	display: none;
+#question10 {
+  display: none;
+}
+
+#question1 {
+  color: white;
+  text-align: left;
+}
+
+#question2 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+#question3 {
+  color: white;
+  text-align: left;
+  font-size: 30px;
+  line-height: 36px;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+#question4 {
+  color: white;
+  text-align: left;
+  font-size: 30px;
+  line-height: 36px;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+#question5 {
+  color: white;
+  text-align: left;
+  font-size: 30px;
+  line-height: 36px;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+#question6 {
+  color: white;
+  text-align: left;
+  font-size: 30px;
+  line-height: 36px;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+#question7 {
+  color: white;
+  text-align: left;
+  font-size: 30px;
+  line-height: 36px;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+#question8 {
+  color: white;
+  text-align: left;
+  font-size: 30px;
+  line-height: 36px;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+#question9 {
+  color: white;
+  text-align: left;
+  font-size: 30px;
+  line-height: 36px;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+#question10 {
+  color: white;
+}
+
+#question2 {
+  text-align: left;
+}
+
+.your {
+  color: white;
+}
+
+#result {
+  color: white;
 }
